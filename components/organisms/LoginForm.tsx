@@ -37,7 +37,7 @@ const LoginForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="mx-auto mt-[30px] max-w-[350px]"
+      className="mx-auto mt-[20px] max-w-[350px]"
     >
       <FormField
         name="email"

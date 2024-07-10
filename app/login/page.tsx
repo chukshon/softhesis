@@ -14,7 +14,7 @@ const LoginPage = () => {
         />
       </div>
 
-      <h1 className="text-center text-[24px] font-inter font-[600] mt-[50px]">
+      <h1 className="text-center text-[24px] font-inter font-[600] mt-[80px]">
         Sign In
       </h1>
       <LoginForm />
