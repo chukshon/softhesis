@@ -9,6 +9,7 @@ interface FormFieldProps {
   placeholder: string;
   register: UseFormRegister<any>;
   required?: boolean;
+  error?: string;
 }
 
 const FormField = ({
@@ -18,6 +19,7 @@ const FormField = ({
   placeholder,
   register,
   required,
+  error,
 }: FormFieldProps) => {
   return (
     <div className="mb-4">
@@ -29,6 +31,7 @@ const FormField = ({
         register={register}
         required={required}
       />
+      {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
     </div>
   );
 };
