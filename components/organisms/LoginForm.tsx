@@ -1,6 +1,8 @@
+"use client";
+
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useUser } from "../../context/UserContext";
 import FormField from "../molecules/FormField";
 import Button from "../atoms/Button";
