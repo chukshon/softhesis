@@ -36,7 +36,7 @@ Organisms are more complex components that combine molecules and atoms to form d
 
 ### Global Context
 
-- UserContext.tsx: A context provider that manages the global state for the user. It stores the user information and provides methods to update this information.
+- UserContext.tsx: A context provider that manages the global state for the user. It stores the user information and provides setUser to update this information.
 
 ## Getting Started
 
