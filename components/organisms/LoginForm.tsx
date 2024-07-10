@@ -30,7 +30,7 @@ const LoginForm = () => {
       setUser({ email: data.email });
       router.push("/dashboard");
     } else {
-      alert("Invalid login credentials");
+      alert("Invalid login credential");
     }
   };
   return (
