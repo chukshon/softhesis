@@ -3,7 +3,7 @@ import Input from "../atoms/Input";
 import { UseFormRegister } from "react-hook-form";
 
 interface FormFieldProps {
-  label: string;
+  label?: string;
   name: string;
   type: string;
   placeholder: string;
@@ -22,8 +22,9 @@ const FormField = ({
   error,
 }: FormFieldProps) => {
   return (
-    <div className="mb-4">
-      <label className="block text-sm font-bold mb-2">{label}</label>
+    <div className="mb-3">
+      {label && <label className="block text-sm font-bold mb-2">{label}</label>}
+
       <Input
         name={name}
         type={type}
