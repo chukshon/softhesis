@@ -74,9 +74,8 @@
 
 @layer components {
 
-  /* primary (purple) button */
   .test {
-    @apply flex items-center justify-center gap-[10px] rounded-[9px] border px-6 py-2 text-center text-[13px] font-medium disabled:cursor-not-allowed h-[40px];
+    @apply flex;
   }
 
 }
