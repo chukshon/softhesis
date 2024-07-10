@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button = ({ type, onClick, children }: ButtonProps) => {
   return (
     <button
-      className="text-neutral-0 bg-blue-500 text-white py-2 px-4 rounded"
+      className={`text-[14px] py-[10px] px-[16px]  text-neutral-0 bg-[#1C1C1C] rounded-[8px] text-white w-full text-center`}
       onClick={onClick}
       type={type}
     >
