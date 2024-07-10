@@ -78,4 +78,8 @@
     @apply flex;
   }
 
+  .text-regular-14 {
+    @apply text-[14px] font-[400] font-inter
+  }
+
 }
