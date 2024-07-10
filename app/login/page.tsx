@@ -1,15 +1,23 @@
 import LoginForm from "@/components/organisms/LoginForm";
+import Image from "next/image";
 import React from "react";
 
 const LoginPage = () => {
   return (
-    <div>
-      <h1 className="text-center text-[30px] font-[600]">Login Page</h1>
+    <div className="pt-[20px]">
+      <div className="flex justify-center items-center">
+        <Image
+          src="/icons/financial-logo.svg"
+          alt="softhesis logo"
+          width={150}
+          height={150}
+        />
+      </div>
+
+      <h1 className="text-center text-[24px] font-inter font-[600] mt-[50px]">
+        Sign In
+      </h1>
       <LoginForm />
-      <span className="flex flex-col items-center j">
-        <p>Email: user@example.com</p>
-        <p>Password: password</p>
-      </span>
     </div>
   );
 };
