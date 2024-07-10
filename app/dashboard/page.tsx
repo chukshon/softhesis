@@ -8,9 +8,11 @@ const DashboardPage = () => {
 
   if (!user) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex flex-col items-center justify-center">
         <p>You need to be Logged in First.</p>
-        <Link href="login">Login</Link>
+        <Link href="login" className="text-blue-700">
+          Login
+        </Link>
       </div>
     );
   }
