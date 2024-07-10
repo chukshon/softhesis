@@ -778,6 +778,9 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.text-center {
+  text-align: center;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -786,8 +789,14 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-\[30px\] {
+  font-size: 30px;
+}
 .font-bold {
   font-weight: 700;
+}
+.font-\[600\] {
+  font-weight: 600;
 }
 .text-red-500 {
   --tw-text-opacity: 1;
